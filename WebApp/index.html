@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebApp</title>
+        <script defer src="index.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="index.css">
+        <audio id="Audio1">
+            <source src="Music/AloneColorOut.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="Audio2">
+            <source src="Music/TheDeepAnitek.mp3" type="audio/mpeg">
+        </audio>
+    </head>
+    <body onload="setStyle()" id="Body">
+        <h1 class="Titles">Kanye Quote</h1>
+        <div id="quotes">
+            <!-- Quote -->
+        </div>
+        <br>
+        <h1 class="Titles">Music</h1>
+        <div id="music">
+            <!-- Music -->
+            <p id="Song">song</p>
+            <button onclick="playAudio()" type="button">Play/Pause</button>
+            <button onclick="NextAudio()" type="button">Next</button> 
+        </div>
+        <br>
+        <h1 class="Titles">Game</h1>
+        <div id="game">
+            <!-- Game -->
+        </div>
+        <br>
+        <h1 class="Titles">Dice Roll</h1>
+        <button onclick="DiceRoll(1,20)" type="button">1 D20</button>
+        <button onclick="DiceRoll(2,20)" type="button">2 D20</button>
+        <button onclick="DiceRoll(1,6)" type="button">1 D6</button>
+        <button onclick="DiceRoll(3,6)" type="button">3 D6</button>
+        <button onclick="DiceRoll(6,6)" type="button">6 D6</button>
+        <div id="DiceDiv">
+            <p id="die">roll Dice and a result will appear here</p>
+            <div id="DiceImage">
+                <!-- Dice -->
+            </div>
+        </div>
+        <br>
+        <h1 class="Titles">Catz</h1>
+        <button id="giveCat">GIVE ME CAT</button>
+        <div id="catPic">
+            <!-- pic -->
+        </div>
+        <br>
+
+    </body>
+</html>

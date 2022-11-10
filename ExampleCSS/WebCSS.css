@@ -1,0 +1,23 @@
+body{
+    background-image: url(Pics/doge.jpg);
+    text-align: center;
+}
+
+h1,h2,h3{
+    color:rgb(14, 204, 61);
+    text-align: center;
+    background-color: azure;
+}
+
+p{
+    color:rgb(14, 204, 61);
+    font-family: Verdana;
+    font-size: 30px;
+    background-color: azure;
+}
+
+th{
+    color:rgb(14, 204, 61);
+    border-style: solid;
+    border-color: rgb(109, 1, 182);
+}

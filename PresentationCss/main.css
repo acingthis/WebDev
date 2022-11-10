@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 30px;
+    background-color: blueviolet;
+}
+
+#test1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.test2{
+    text-align: right;
+}
+
+p.center{
+    text-align: center;
+    color:  coral;
+}
+
+p.whitebackground{
+    background-color: antiquewhite;
+}
